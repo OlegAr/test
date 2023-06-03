@@ -14,11 +14,22 @@ curl -X POST -d "action=add&data[name]=ivan&data[email]=ivan@mail.com" http://ap
 ### Pre Requirements:
 1. Install Git
 2. Install docker, docker-compose
+3. Add this 2 lines to /etc/hosts on your machine:
+```
+127.0.0.1    app.loc
+127.0.0.1    api.app.loc
+```
 
 <br>
 
 ### Installation:
-1. git clone https://github.com/OlegAr/test.git
-2. cd test
-3. docker-compose up --build
+```
+git clone https://github.com/OlegAr/test.git
+```
+```
+cd test
+```
+```
+docker-compose up --build
+```
 
